@@ -1,3 +1,37 @@
-.nav{
-    background-color: antiquewhite;
+.navbar{
+    
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+    /* background-color: antiquewhite; */
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+}
+.links a{
+    color: #9abde3;
+    text-decoration: none;
+    font-weight: 500px;
+}
+.links a:hover{
+    color:var(--white);
+    transition:all 0.99s;
+}
+.gradient{
+position: absolute;
+width: 800px;
+height: 150px;
+margin: auto;
+background: #18abbe; 
+filter: blur(120px);
+z-index: -1;
+top: -150px;
+}
+.active{
+    color:rgb(255, 255, 255) !important
 }
