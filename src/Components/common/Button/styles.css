@@ -1,0 +1,18 @@
+.custom-btn{
+    text-align: center;
+    border: 2px solid var(--purple-grey);
+    padding: 1rem;
+    border-radius: 0.35rem;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 0.5rem;
+    font-size: 1rem !important;
+    width: 70vw;
+    margin: 1rem;
+}
+
+.custom-btn:hover{
+    background-color: var(--white);
+    color: var(--theme);
+    transition:all 0.3s
+}

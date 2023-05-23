@@ -16,4 +16,17 @@ body {
   background-color: var(--theme);
   color: var(--white);
 }
-
+.input-wrapper {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.input-wrapper h1{
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 400;
+}
